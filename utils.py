@@ -43,7 +43,7 @@ def get_data(data):
     # sort by x and y
     coords = coords[np.lexsort((coords[:, 1], coords[:, 0]))]
     # sample k coordinates that are most far apart
-    k = min(20, len(coords) - 1)
+    k = min(10, len(coords) - 1)
     coords = k_farthest_apart(coords, k)
 
     coords_str = ''.join([f'({x},{y});' for x, y in coords])
