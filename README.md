@@ -1,4 +1,4 @@
-# Can ChatGPT and GPT-4 classify MNIST digits?
+# Can ChatGPT and GPT-4 classify MNIST digits (without images)?
 
 > Not really. But it's fun to try.
 
